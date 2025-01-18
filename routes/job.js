@@ -7,6 +7,7 @@ router.post('/create',checkToken, createJob)
 router.put('/update/:_id',checkToken, updateJob)
 router.delete('/delete/:_id',checkToken, deleteJob) //params
 router.get('/getalljob/',getAllJob)
+router.get('/countJob',checkToken,countNumbers)
 router.get('/singlecompanyalljob/',checkToken,singleCompanyJobs)
 
 

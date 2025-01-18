@@ -70,7 +70,7 @@ const countNumbers =async(req,res)=>{
       let appliedUserCounts = 0;
 
       findJob.forEach((jobObj)=>{
-        appliedUserCounts = appliedUserCounts+ jobObj.applicants.length
+        appliedUserCounts = appliedUserCounts+jobObj.applicants.length
       })
       console.log(appliedUserCounts)
       let totalJobPost = findJob.length;
