@@ -5,7 +5,7 @@ var jwt = require('jsonwebtoken');
 var randomstring = require("randomstring");
 const nodemailer = require("nodemailer");
 // const path = require('path');
-require('dotenv').config()
+require('dotenv').config();
 
 // console.log(process.env.JWT_Secret)
 const registerUser = async (req, res) => {
